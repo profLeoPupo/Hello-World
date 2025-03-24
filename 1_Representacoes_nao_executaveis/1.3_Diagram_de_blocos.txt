@@ -1,0 +1,3 @@
+"""
+[Início] → [Exibir "Olá, Mundo!"] → [Fim]
+"""
