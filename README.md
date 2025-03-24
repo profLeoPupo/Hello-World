@@ -26,7 +26,7 @@ Hello World/
 │   ├── 1.4_Tabela_de_Estados.txt
 │   ├── 1.5_PseudoCodigo.txt
 │   └── 1.6_Diagrama_de_Fluxo.xml
-├── 2_Primeiros_Codigos/
+├── 2_Representacoes_Executaveis/
 │   ├── hello_world.py
 │   ├── hello_world.c
 │   ├── hello_world.java
