@@ -1,7 +1,0 @@
-"""
-| Passo | Ação                  | Estado Atual |
-|-------|-----------------------|--------------|
-|   1   | Iniciar programa      | Executando   |
-|   2   | Exibir "Olá, Mundo!"  | Exibindo     |
-|   3   | Encerrar programa     | Finalizado   |
-"""

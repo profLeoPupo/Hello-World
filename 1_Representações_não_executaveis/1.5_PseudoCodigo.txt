@@ -1,5 +1,0 @@
-"""
-INICIO
-    ESCREVER "Olá, Mundo!"
-FIM
-"""
