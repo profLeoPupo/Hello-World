@@ -1,0 +1,5 @@
+"""
+Passo 1: Iniciar o programa
+Passo 2: Exibir a mensagem "Olá, Mundo!"
+Passo 3: Encerrar o programa
+"""

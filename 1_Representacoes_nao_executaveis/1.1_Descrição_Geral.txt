@@ -1,0 +1,4 @@
+"""
+O objetivo deste documento é apresentar o algoritmo "Olá, Mundo!" em diferentes formas não executáveis.
+Essas representações permitem compreender a estrutura lógica de um programa sem a necessidade de codificação.
+"""
