@@ -1,165 +1,206 @@
-# 2_Representações_Executáveis – "Olá, Mundo!"
+##Hello World
 
-Este diretório contém implementações simples do algoritmo "Olá, Mundo!" em diversas linguagens de programação. O objetivo é fornecer exemplos básicos que demonstram como exibir a mensagem "Olá, Mundo!" em diferentes ambientes e contextos. Cada exemplo foi elaborado para servir de base de estudos para iniciantes, com explicações detalhadas sobre as propriedades de cada linguagem e instruções passo a passo para execução.
+Este repositório apresenta diferentes formas de representar e executar o clássico programa "Hello, World!" em diversas linguagens e formatos. Nele você encontrará desde representações não executáveis (como pseudocódigo e diagramas) até implementações reais em várias linguagens de programação.
+
+Estrutura do Repositório
+
+Hello World/
+├── 1_Representacoes_Nao_Executaveis/
+│   ├── 1.1_Descricao_Geral.txt
+│   ├── 1.2_Algoritmo_Linguagem_Natural.txt
+│   ├── 1.3_Diagrama_de_Blocos.txt
+│   ├── 1.4_Tabela_de_Estados.txt
+│   ├── 1.5_PseudoCodigo.txt
+│   └── 1.6_Diagrama_de_Fluxo.xml
+├── 2_Representacoes_Executaveis/
+│   ├── hello_world.py
+│   ├── hello_world.c
+│   ├── hello_world.java
+│   ├── hello_world.js
+│   ├── hello_world.php
+│   ├── hello_world.bat
+│   ├── hello_world.sh
+│   ├── hello_world.html
+│   ├── hello_world.sql
+│   ├── hello_world.ps1
+│   ├── hello-world.R
+│   ├── hello-world.go
+│   ├── hello-world.kt
+│   ├── hello-world.lua
+│   ├── hello-world.m
+│   ├── hello-world.pl
+│   ├── hello-world.rb
+│   ├── hello-world.rs
+│   ├── hello-world.swift
+└── LICENSE
+
+Descrição
+
+1_Representacoes_Nao_Executaveis/:
+Contém diferentes formas de representar o algoritmo "Hello, World!" de maneira não executável, como:
+
+Descrição Geral: Visão conceitual do programa.
+
+Algoritmo em Linguagem Natural: Passo a passo explicado em linguagem simples.
+
+Diagrama de Blocos: Representação gráfica dos componentes do algoritmo.
+
+Tabela de Estados: Demonstração dos possíveis estados e transições.
+
+Pseudocódigo: Algoritmo estruturado em formato próximo ao código.
+
+Diagrama de Fluxo: Fluxograma detalhado em formato XML.
+
+
+2_Representacoes_Executaveis/:
+Contém implementações do "Hello, World!" em diversas linguagens. Cada script imprime a mensagem "Hello, World!" de acordo com as características da linguagem utilizada:
+
+hello_world.py
+Python: Script que utiliza a função print() para exibir a mensagem no console.
+
+hello_world.c
+C: Programa que utiliza a biblioteca stdio.h e a função printf() para imprimir a mensagem.
+
+hello_world.java
+Java: Classe com o método main que usa System.out.println() para exibir a mensagem.
+
+hello_world.js
+JavaScript: Script que pode ser executado em ambientes Node.js ou navegadores, utilizando console.log().
+
+hello_world.php
+PHP: Script que utiliza a função echo para imprimir a mensagem, geralmente executado em um servidor web.
+
+hello_world.bat
+Windows Batch: Arquivo batch que exibe a mensagem no prompt de comando.
+
+hello_world.sh
+Bash Script: Script para sistemas Unix/Linux que utiliza o comando echo para imprimir a mensagem no terminal.
+
+hello_world.html
+HTML: Página que apresenta a mensagem "Hello, World!" quando visualizada em um navegador, podendo incluir scripts e estilos.
+
+hello_world.sql
+SQL: Consulta que retorna a string "Hello, World!", útil para demonstrações de comandos SQL.
+
+hello_world.ps1
+PowerShell: Script que utiliza o cmdlet Write-Output ou Write-Host para imprimir a mensagem no console do PowerShell.
+
+hello-world.R
+R: Script que utiliza a função print() para exibir a mensagem no console do R.
+
+hello-world.go
+Go: Programa que usa o pacote fmt e a função Println() para imprimir a mensagem.
+
+hello-world.kt
+Kotlin: Script que contém uma função main que usa println() para exibir a mensagem na saída padrão.
+
+hello-world.lua
+Lua: Script simples que utiliza a função print() para mostrar a mensagem.
+
+hello-world.m
+MATLAB/Octave: Script que utiliza a função disp() para exibir a mensagem no ambiente MATLAB ou Octave.
+
+hello-world.pl
+Perl: Script que utiliza print para enviar a mensagem para a saída padrão.
+
+hello-world.rb
+Ruby: Script que imprime a mensagem utilizando o comando puts.
+
+hello-world.rs
+Rust: Programa que usa a macro println! para exibir a mensagem no console.
+
+hello-world.swift
+Swift: Programa que utiliza a função print() para exibir a mensagem no console.
+
+
+LICENSE:
+Arquivo de licenciamento que define os termos de uso e distribuição do projeto.
+
+
+Como Executar
+
+Cada arquivo na pasta 2_Representacoes_Executaveis/ pode ser executado conforme a linguagem correspondente. Alguns exemplos:
+
+Python
+
+python hello_world.py
+
+C
+
+gcc hello_world.c -o hello_world
+./hello_world
+
+Java
+
+javac hello_world.java
+java HelloWorld
+
+JavaScript (Node.js)
+
+node hello_world.js
+
+PHP
+
+php hello_world.php
+
+Bash Script
+
+bash hello_world.sh
+
+PowerShell
+
+powershell -File hello_world.ps1
+
+R
+
+Rscript hello-world.R
+
+Go
+
+go run hello-world.go
+
+Kotlin
+
+kotlinc hello-world.kt -include-runtime -d hello-world.jar
+java -jar hello-world.jar
+
+Lua
+
+lua hello-world.lua
+
+MATLAB/Octave
+
+matlab -batch "run('hello-world.m')"
+
+Perl
+
+perl hello-world.pl
+
+Ruby
+
+ruby hello-world.rb
+
+Rust
+
+rustc hello-world.rs -o hello-world
+./hello-world
+
+Swift
+
+swift hello-world.swift
+
+Observação: Para cada linguagem, pode ser necessário ter o ambiente ou compilador configurado corretamente em sua máquina.
+
+Contribuição
+
+Sinta-se à vontade para contribuir com novas linguagens ou melhorar as representações existentes. Basta abrir um pull request ou enviar uma issue descrevendo a alteração.
+
+Licença
+
+Este projeto está licenciado sob os termos da LICENÇA.
+
 
 ---
 
-## Conteúdo do Diretório
+Caso precise de mais informações ou ajustes, estou à disposição para ajudar!
 
-- **hello_world.py**: Exemplo em Python.
-- **hello_world.c**: Exemplo em C.
-- **hello_world.java**: Exemplo em Java.
-- **hello_world.js**: Exemplo em JavaScript.
-- **hello_world.php**: Exemplo em PHP.
-- **hello_world.bat**: Exemplo em Batch (Windows).
-- **hello_world.sh**: Exemplo em Shell Script (Linux/Mac).
-- **hello_world.html**: Exemplo em HTML com JavaScript.
-- **hello_world.sql**: Exemplo em SQL.
-- **hello_world.ps1**: Exemplo em PowerShell.
-
----
-
-## Tutorial Didático de Execução e Propriedades de Cada Linguagem
-
-### 1. Python (`hello_world.py`)
-- **Propriedades:**  
-  Python é uma linguagem interpretada, de alto nível, conhecida por sua sintaxe simples e legível. É muito utilizada em áreas como automação, ciência de dados e desenvolvimento web.
-- **Como executar:**  
-  Abra o terminal, navegue até o diretório e execute:
-  ```bash
-  python hello_world.py
-  ```
-- **O que acontece:**  
-  O script imprime a mensagem "Olá, Mundo!" no console.
-
----
-
-### 2. C (`hello_world.c`)
-- **Propriedades:**  
-  C é uma linguagem compilada, de baixo nível, que oferece grande eficiência e controle sobre os recursos do sistema. É amplamente utilizada em sistemas operacionais e softwares de alto desempenho.
-- **Como executar:**  
-  Compile o arquivo com um compilador C, como o GCC, e execute o binário:
-  ```bash
-  gcc hello_world.c -o hello_world
-  ./hello_world
-  ```
-- **O que acontece:**  
-  O programa exibe a mensagem "Olá, Mundo!" no terminal.
-
----
-
-### 3. Java (`hello_world.java`)
-- **Propriedades:**  
-  Java é uma linguagem compilada para bytecode que roda na Máquina Virtual Java (JVM), o que a torna altamente portátil. É muito utilizada em aplicações corporativas e no desenvolvimento de aplicativos móveis.
-- **Como executar:**  
-  Compile o arquivo e execute a classe compilada:
-  ```bash
-  javac hello_world.java
-  java HelloWorld
-  ```
-- **O que acontece:**  
-  O programa Java imprime "Olá, Mundo!" no console.
-
----
-
-### 4. JavaScript (`hello_world.js`)
-- **Propriedades:**  
-  JavaScript é uma linguagem interpretada essencial para o desenvolvimento web, sendo utilizada tanto no front-end quanto no back-end (através do Node.js). Permite a criação de aplicações interativas.
-- **Como executar:**  
-  Utilize o Node.js para executar o script:
-  ```bash
-  node hello_world.js
-  ```
-- **O que acontece:**  
-  O script exibe "Olá, Mundo!" no console.
-
----
-
-### 5. PHP (`hello_world.php`)
-- **Propriedades:**  
-  PHP é uma linguagem de script utilizada principalmente para o desenvolvimento web dinâmico. É executada no lado do servidor e facilita a integração com bancos de dados.
-- **Como executar:**  
-  Execute o arquivo utilizando o interpretador PHP:
-  ```bash
-  php hello_world.php
-  ```
-- **O que acontece:**  
-  O script PHP imprime "Olá, Mundo!" na saída padrão (terminal ou navegador, conforme a configuração do servidor).
-
----
-
-### 6. Batch (`hello_world.bat`)
-- **Propriedades:**  
-  Arquivos Batch são scripts simples utilizados no ambiente Windows para automatização de tarefas e operações básicas. 
-- **Como executar:**  
-  No Windows, basta dar um duplo clique no arquivo ou executá-lo via Prompt de Comando:
-  ```cmd
-  hello_world.bat
-  ```
-- **O que acontece:**  
-  O script em lote exibe "Olá, Mundo!" e, em geral, aguarda uma ação (como pressionar uma tecla) para encerrar.
-
----
-
-### 7. Shell Script (`hello_world.sh`)
-- **Propriedades:**  
-  Shell Script é utilizado em sistemas Unix/Linux para automatização de tarefas e execução de comandos do sistema operacional.
-- **Como executar:**  
-  Em sistemas Linux/Mac, dê permissão de execução e execute:
-  ```bash
-  chmod +x hello_world.sh
-  ./hello_world.sh
-  ```
-- **O que acontece:**  
-  O script Shell imprime "Olá, Mundo!" no terminal.
-
----
-
-### 8. HTML (`hello_world.html`)
-- **Propriedades:**  
-  HTML é a linguagem de marcação padrão para criação de páginas web. Quando combinada com JavaScript, pode criar páginas interativas e dinâmicas.
-- **Como executar:**  
-  Abra o arquivo em um navegador web (basta dar duplo clique ou arrastar o arquivo para uma janela do navegador).
-- **O que acontece:**  
-  A página exibe um cabeçalho com a mensagem "Olá, Mundo!".
-
----
-
-### 9. SQL (`hello_world.sql`)
-- **Propriedades:**  
-  SQL (Structured Query Language) é a linguagem padrão para consulta e manipulação de bancos de dados relacionais. É utilizada para extrair e gerenciar dados de forma eficiente.
-- **Como executar:**  
-  Em um ambiente SQL (por exemplo, MySQL, PostgreSQL ou SQLite), execute a consulta:
-  ```sql
-  SELECT 'Olá, Mundo!' AS mensagem;
-  ```
-- **O que acontece:**  
-  A consulta retorna uma coluna com a mensagem "Olá, Mundo!".
-
----
-
-### 10. PowerShell (`hello_world.ps1`)
-- **Propriedades:**  
-  PowerShell é uma linguagem de script e shell desenvolvida pela Microsoft, ideal para automação e gerenciamento de configurações no ambiente Windows.
-- **Como executar:**  
-  No Windows, abra o PowerShell, navegue até o diretório e execute:
-  ```powershell
-  ./hello_world.ps1
-  ```
-- **O que acontece:**  
-  O script PowerShell exibe "Olá, Mundo!" no console.
-
----
-
-## Considerações Finais
-
-Cada exemplo neste diretório foi desenvolvido para oferecer uma introdução prática aos fundamentos de diferentes linguagens de programação. Estes materiais são ideais para estudantes iniciantes que desejam entender como um mesmo conceito pode ser implementado em múltiplos contextos.
-
-Sinta-se à vontade para modificar, experimentar e contribuir com melhorias. Contribuições são sempre bem-vindas – abra uma _issue_ ou envie um _pull request_ se tiver sugestões ou novos exemplos a acrescentar.
-
-Vamos aprender, compartilhar e evoluir juntos!
-
-*Hello World – Material Didático para Estudos e Desenvolvimento Compartilhado*
-```
-
-Este README.md reúne todas as informações necessárias para que estudantes iniciantes compreendam as propriedades e a execução dos exemplos, servindo de base para estudos e desenvolvimento colaborativo. Se precisar de mais alguma modificação, estou à disposição!
