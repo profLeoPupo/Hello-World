@@ -1,39 +1,41 @@
+# Representações Não Executáveis ✍️
+
+Esta pasta contém representações **não executáveis** do algoritmo "Hello World!" 🖥️. O objetivo aqui é demonstrar o conceito do algoritmo de maneira textual ou visual, sem a necessidade de execução em um ambiente de programação. Estas representações são ideais para entender a lógica por trás do código de uma maneira acessível e educativa. 🌍
+
+## Estrutura
+
+Aqui você encontrará diferentes tipos de arquivos que explicam o algoritmo "Hello World!" de formas variadas. Cada arquivo tem um objetivo específico de ilustração, seja com diagramas, pseudocódigo ou outras abordagens.
+
+### Arquivos Disponíveis
+
+- **1.1_Descrição_Geral.txt**: Descrição geral do algoritmo "Hello World!" e sua importância no contexto da programação.
+  
+- **1.2_Algoritmo_Linguagem_Natural.txt**: Passo a passo do algoritmo escrito em linguagem natural, ideal para quem está iniciando.
+
+- **1.3_Diagrama_de_blocos.txt**: Representação do algoritmo através de um diagrama de blocos, uma forma visual de entender a sequência de ações.
+
+- **1.4_Tabela_de_Estados.txt**: Apresenta o algoritmo através de uma tabela de estados, que detalha as transições e eventos de cada parte do processo.
+
+- **1.5_PseudoCodigo.txt**: Representação em pseudocódigo, que simula a estrutura do código de forma mais próxima do que seria em uma linguagem de programação.
+
+- **1.6_Diagrama_de_Fluxo.xml**: Diagrama de fluxo em formato XML, compatível com ferramentas como o [draw.io](https://draw.io), para quem prefere uma abordagem visual.
+
+### Como Usar
+
+- **Leitura Simples**: Você pode começar com a **Descrição Geral** para entender o que é o algoritmo.
+- **Exploração Visual**: Os diagramas de blocos e fluxogramas ajudam a visualizar o algoritmo de forma intuitiva.
+- **Compreensão Lógica**: O pseudocódigo e a tabela de estados fornecem uma compreensão detalhada da execução do algoritmo.
+  
+Para uma melhor experiência, use ferramentas como o [draw.io](https://draw.io) para visualizar o **Diagrama de Fluxo** e explorar o algoritmo de forma interativa.
 
 ---
 
-### README.md (Diretório 1_Representacoes_Nao_Executaveis)
+## Contribuindo 💡
 
-```markdown
-# Representações Não Executáveis do Algoritmo "Olá, Mundo!"
+Se você tem sugestões ou melhorias para esta pasta, fique à vontade para contribuir! Por favor, siga os [passos para contribuir](../CONTRIBUTING.md) para enviar suas modificações.
 
-Este diretório contém diversas representações não executáveis do clássico algoritmo "Olá, Mundo!". O objetivo é demonstrar, de forma didática, como a lógica de um programa pode ser expressa antes mesmo de ser transformada em código executável. Todo o material foi elaborado em português para facilitar o acesso e o aprendizado.
+Estamos abertos a novas ideias e representações que podem melhorar a compreensão do algoritmo para estudantes de diferentes níveis de conhecimento.
 
-## Conteúdo do Diretório
+---
 
-- **1.1_Descricao_Geral.txt:**  
-  Visão geral sobre o propósito deste material, explicando a importância de representar algoritmos de forma textual e visual.
-
-- **1.2_Algoritmo_Linguagem_Natural.txt:**  
-  Descrição passo a passo do algoritmo em linguagem natural.
-
-- **1.3_Diagrama_de_Blocos.txt:**  
-  Diagrama simples de blocos que ilustra o fluxo do algoritmo.
-
-- **1.4_Tabela_de_Estados.txt:**  
-  Tabela que descreve os estados e as ações do algoritmo.
-
-- **1.5_PseudoCodigo.txt:**  
-  Pseudocódigo do algoritmo, demonstrando a lógica de forma simplificada.
-
-- **1.6_Diagrama_de_Fluxo.xml:**  
-  Arquivo XML compatível com o draw.io, representando um diagrama de fluxo do algoritmo.  
-  _Dica:_ Para importar no draw.io, salve o arquivo e use a opção **File > Import From > Device**.
-
-## Objetivo
-
-Este material didático tem como propósito:
-- Facilitar a compreensão dos fundamentos da programação.
-- Demonstrar que um algoritmo pode ser representado de várias maneiras.
-- Servir como base para estudos e colaborações no desenvolvimento compartilhado.
-
-Sinta-se à vontade para explorar, utilizar e contribuir com melhorias neste diretório!
+*Explore as representações não executáveis e mergulhe no aprendizado do algoritmo Hello World!* 🚀
