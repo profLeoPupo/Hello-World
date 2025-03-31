@@ -78,6 +78,7 @@ Para mais informações ou dúvidas, sinta-se à vontade para entrar em contato 
 ## Estrutura de Diretórios
 
 ```plaintext
+
 Hello World/
 ├── 1_Representacoes_Nao_Executaveis/
 │   ├── 1.1_Descricao_Geral.txt
@@ -96,5 +97,14 @@ Hello World/
 │   ├── hello_world.sh
 │   ├── hello_world.html
 │   ├── hello_world.sql
-│   └── hello_world.ps1
+│   ├── hello_world.ps1
+│   ├── hello-world.R
+│   ├── hello-world.go
+│   ├── hello-world.kt
+│   ├── hello-world.lua
+│   ├── hello-world.m
+│   ├── hello-world.pl
+│   ├── hello-world.rb
+│   ├── hello-world.rs
+│   ├── hello-world.swift
 └── LICENSE
